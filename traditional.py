@@ -1,5 +1,4 @@
 import fitz
-import pandas as pd
 
 fname = "Planwerk JF 28.pdf"
 doc = fitz.open(fname)
