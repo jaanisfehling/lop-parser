@@ -15,7 +15,7 @@ message = client.messages.create(
         "content": [
             {
                 "type": "text",
-                "text": "Please parse all the data from the PDF to JSON. Make sure to differentiate between the subheadings. Do not include other text, so I can just write your response to a file. Make sure you include every row."
+                "text": "Please parse all the data from the PDF to JSON. Make sure to differentiate between the subheadings. Do not include other text, so I can just write your response to a file. Make sure you include every row. Also include a key in the object for every row indicating the text style of the row, either black, blue or italic."
             },
             {
                 "type": "document",
